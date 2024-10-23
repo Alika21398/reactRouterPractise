@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
       <nav className="px-44 py-5">
-        <ul className="flex justify-between">
-          <li>
+        <ul className="flex justify-between items-center">
+          <li className="text-2xl">
             <Link to="/">yourLogo</Link>
           </li>
 
