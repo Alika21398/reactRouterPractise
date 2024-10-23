@@ -13,7 +13,7 @@ function GitHub() {
     console.log("data", data)
   return (
     <>
-    <div className='flex gap-10 justify-between px-44 py-10 my-10 bg-gray-400'>
+    <div className='flex gap-10 justify-between px-44 py-10  bg-gray-400'>
        <div className='w-[40%] p-5 border'> <img className='w-full' src={data.avatar_url} alt="" /></div>
        <div className=' '>
         <div className='text-center text-3xl font-bold underline'>{data.name}</div>

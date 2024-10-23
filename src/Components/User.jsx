@@ -11,7 +11,7 @@ function User() {
     console.log("params" ,users)
   return (
     <>
-    <div className='px-44 bg-gray-300 my-10 py-10'>
+    <div className='px-44 bg-gray-300  py-10'>
         {/* <p>I am user no. {params.username}</p> */}
         {users.map((items, index)=>{
             return (

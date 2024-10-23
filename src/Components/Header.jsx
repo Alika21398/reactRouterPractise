@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <nav className="px-44 py-5">
+      <nav className="px-44 py-5 bg-gray-100">
         <ul className="flex justify-between items-center">
           <li className="text-2xl">
             <Link to="/">yourLogo</Link>
