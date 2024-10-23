@@ -23,7 +23,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/about"
+                to="about"
                 className={({ isActive }) =>
                 
                   `text-xl font-semibold ${isActive ? "text-red-500" : "text-black"} hover:text-red-500 `
